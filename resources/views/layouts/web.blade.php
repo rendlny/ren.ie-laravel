@@ -14,7 +14,7 @@
 
         <div class="ms-site-container">
             @yield('content')
-        </div> <!-- ms-site-container -->
+        </div>
 
         <script src="/web/assets/js/jquery.min.js"></script>
         <script src="/web/assets/js/plugins.min.js"></script>
