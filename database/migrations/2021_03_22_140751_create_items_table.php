@@ -15,17 +15,17 @@ class CreateItemsTable extends Migration
     {
         Schema::create('items', function (Blueprint $table) {
             $table->id();
-            $table->string('name');
-            $table->string('description');
-            $table->string('slug');
+            $table->string('name')->nullable();
+            $table->string('description')->nullable();
+            $table->string('slug')->nullable();
             $table->boolean('active')->default(false);
-            $table->integer('price');
-            $table->boolean('preorder');
-            $table->boolean('trade');
-            $table->boolean('sale');
-            $table->boolean('bid');
-            $table->integer('weight');
-            $table->integer('quantity');
+            $table->integer('price')->default(0);
+            $table->boolean('preorder')->default(false);
+            $table->boolean('trade')->default(false);
+            $table->boolean('sale')->default(false);
+            $table->boolean('bid')->default(false);
+            $table->integer('weight')->default(0);
+            $table->integer('quantity')->default(0);
             $table->timestamps();
             $table->softDeletes();
         });

@@ -1,11 +1,11 @@
 @extends('layouts.web')
 
 @section('content')
-    <div id="home-body" class="wrap wrap-mountain wrap-keyboard wrap-grey">
+    <div id="home-body">
       <div class="container">
 
-        <h1 class="text-center"><strong>Ren Delaney</strong></h1>
-        <h3 class="text-center">Software Engineer & Web Developer</h3>
+        <h1 class="text-center text-white text-4xl font-medium">Ren Delaney</h1>
+        <h3 class="text-center text-white text-3xl">Software Engineer & Web Developer</h3>
         <hr>
 
         <div class="row">
@@ -19,5 +19,11 @@
           </div>
         </div>
       </div>
+    </div>
+
+    
+    <div id="app">
+      <app></app>
+      <example-component></example-component>
     </div>
 @endsection
