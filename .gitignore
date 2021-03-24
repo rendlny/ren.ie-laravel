@@ -6,6 +6,7 @@ yarn-error.log
 # Laravel 5 & Lumen specific
 /public/hot
 /public/storage
+/public/webfonts
 
 /storage/*.key
 .env
