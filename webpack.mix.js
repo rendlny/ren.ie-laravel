@@ -17,5 +17,5 @@ mix.js('resources/js/app.js', 'public/js')
     ])
     .sass('resources/sass/app.scss', 'public/css')
     .vue()
-    .copy('node_modules/@fortawesome/fontawesome-free/webfonts', 'public/webfonts')
-    .browserSync('localhost:8000')
+    .copy('node_modules/@fortawesome/fontawesome-free/webfonts', 'public/webfonts');
+mix.browserSync('http://localhost:8000/');

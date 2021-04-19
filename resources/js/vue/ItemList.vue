@@ -1,14 +1,5 @@
 <template>
-    <div>
+    <div class="bg-yellow-300">
         Item List View
     </div>
 </template>
-<script>
-import { defineComponent } from '@vue/composition-api'
-
-export default defineComponent({
-    setup() {
-        
-    },
-})
-</script>
